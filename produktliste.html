@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produkter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="produktliste">
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><h1>Athletic<span>Days</span></h1></a
+        >
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="kategori.html">Kategorier</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2>Produkter</h2>
+      <div class="produktlise_container"></div>
+    </section>
+    <!-- <main>
+      <article>
+        <div class="produktliste_produkt">
+          <img src="img/puma_bold_lille.webp" alt="Produkteksempel" />
+          <h3>Puma fodbold</h3>
+          <p class="produkt_overskrift_lille">Fodbold / Puma</p>
+          <p class="pris_lille">DKK 299,-</p>
+          <a href="produkt.html">Læs mere</a>
+        </div>
+      </article> -->
+    <!--Almindelige produkter-->
+    <!-- <article>
+        <div class="produktliste_produkt">
+          <img src="img/sort_cap.webp" alt="Produkteksempel" />
+          <h3>Sort kasket</h3>
+          <p class="produkt_overskrift_lille">Kasketter og huer / Puma</p>
+          <p class="pris_lille">DKK 249,-</p>
+          <a href="produkt.html">Læs mere</a>
+        </div>
+      </article> -->
+    <!--Nedsat produkt-->
+    <!-- <article>
+        <div class="produktliste_produkt">
+          <img src="img/ferrari_tee.webp" alt="Produkteksempel" />
+          <h3>Ferrari Tee</h3>
+          <p class="produkt_overskrift_lille">Tøj / Ferrari</p>
+          <p class="pris_lille">DKK 499,-</p>
+          <div class="rabat">
+            <p>NEDSAT: 248,-</p>
+            <p>50%</p>
+          </div>
+          <a href="produkt.html">Læs mere</a>
+        </div>
+      </article> -->
+    <!--Udsolgt-->
+    <!-- <article>
+        <div class="produktliste_produkt udsolgt">
+          <img src="img/ferrari_troeje.webp" alt="Produkteksempel" />
+          <h3>Ferrari Trøje</h3>
+          <p class="produkt_overskrift_lille">Tøj / Ferrari</p>
+          <p class="pris_lille">DKK 499,-</p>
+          <a href="produkt.html">Læs mere</a>
+        </div>
+        
+      </article> 
+    </main> -->
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
+</html>
+
+<template class="produktliste_template">
+  <a href="produkt.html">
+    <article class="produktliste_article">
+      <div class="produktliste_image_container">
+        <div class="produktliste_image">
+          <img class="produktliste_image" />
+        </div>
+      </div>
+      <h3 class="produktliste_navn">Navn</h3>
+      <p class="produtkliste_pris"><span>DKK </span>Pris</p>
+      <p class="produtkliste_brand"></p>
+    </article>
+  </a>
+</template>
